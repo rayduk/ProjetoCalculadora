@@ -13,7 +13,9 @@
         valor2 = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("\nEscolha uma operação:");
+        Console.WriteLine("3 - Multiplicação");
        
+
     }
 }
 
