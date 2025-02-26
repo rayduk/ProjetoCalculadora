@@ -13,7 +13,7 @@
         valor2 = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("\nEscolha uma operação:");
-        Console.WriteLine("3 - Multiplicação");
+        Console.WriteLine("1 - Multiplicação");
        
 
     }
