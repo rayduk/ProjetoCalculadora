@@ -31,8 +31,7 @@
                 break;
             default:
                 Console.WriteLine($"Não se encontro a operação");
-                break;
-               
+                break;         
                 
 
 
@@ -40,12 +39,7 @@
 
     }
 
-
-
-
-
-
-    
+        
 }
 
 
