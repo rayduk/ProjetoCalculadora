@@ -12,7 +12,8 @@
         Console.Write("digite segundo numero");
         valor2 = Convert.ToDouble(Console.ReadLine());
 
-
+        Console.WriteLine("\nEscolha uma operação:");
+       
     }
 }
 
