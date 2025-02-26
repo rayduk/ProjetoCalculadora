@@ -7,8 +7,15 @@
 
     private static void Main(string[] args)
     {
-        Console.Write("digite numero1");
+        Console.Write("digite primer numero");
+        valor1 = Console.ReadLine();
+        
 
-       
+
+
     }
 }
+
+
+
+
