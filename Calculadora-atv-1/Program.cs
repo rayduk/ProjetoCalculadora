@@ -23,11 +23,13 @@
                 resultado = num1 * num2;
                 Console.WriteLine($"A multiplicação é: {resultado}");
                 break;
-             case 2:
-                
-
+            case 2:
+                resultado = num1 / num2;
+               
 
         }
+
+    }
 
 
 
