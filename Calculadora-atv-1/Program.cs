@@ -17,6 +17,8 @@
         Console.WriteLine("2 - Divisão");
         Console.Write("Opção: ");
         operacao = Convert.ToInt32(Console.ReadLine());
+
+
         switch (operacao)
         {
             case 1:
