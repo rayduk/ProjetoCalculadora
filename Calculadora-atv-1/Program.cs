@@ -1,4 +1,5 @@
-﻿internal class Program
+﻿    
+internal class Program
 {
     double num1;
     double num2;
