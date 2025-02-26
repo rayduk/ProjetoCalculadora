@@ -19,7 +19,9 @@
         operacao = Convert.ToInt32(Console.ReadLine());
         switch (operacao)
         {
-           
+            case 1:
+                resultado = num1 * num2;
+                
         }
 
 
