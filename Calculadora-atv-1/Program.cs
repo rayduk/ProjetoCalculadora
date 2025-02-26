@@ -28,7 +28,8 @@
                 Console.WriteLine($"A divisão é: {resultado}");
                 break;
             default:
-
+                Console.WriteLine($"Não se encontro a operação");
+               
                 
 
 
