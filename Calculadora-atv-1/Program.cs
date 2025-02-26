@@ -14,7 +14,9 @@
 
         Console.WriteLine("\nEscolha uma operação:");
         Console.WriteLine("1 - Multiplicação");
-       
+        Console.WriteLine("2 - Divisão");
+        
+
 
     }
 }
