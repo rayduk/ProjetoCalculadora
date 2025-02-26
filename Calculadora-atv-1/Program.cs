@@ -9,7 +9,8 @@
     {
         Console.Write("digite primer numero");
         valor1 = Convert.ToDouble(Console.ReadLine());
-
+        Console.Write("digite segundo numero");
+        
 
     }
 }
