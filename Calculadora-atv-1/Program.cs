@@ -26,6 +26,8 @@
             case 2:
                 resultado = num1 / num2;
                 Console.WriteLine($"A divisão é: {resultado}");
+                break;
+            default:
 
                 
 
@@ -39,7 +41,7 @@
 
 
 
-    }
+    
 }
 
 
