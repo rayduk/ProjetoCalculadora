@@ -16,7 +16,10 @@
         Console.WriteLine("1 - Multiplicação");
         Console.WriteLine("2 - Divisão");
         Console.Write("Opção: ");
+        operacao = Convert.ToInt32(Console.ReadLine());
+
         
+
 
 
 
