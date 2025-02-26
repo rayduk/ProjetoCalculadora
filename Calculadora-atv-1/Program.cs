@@ -8,9 +8,7 @@
     private static void Main(string[] args)
     {
         Console.Write("digite primer numero");
-        valor1 = Console.ReadLine();
-        
-
+        valor1 = Convert.ToDouble(Console.ReadLine());
 
 
     }
