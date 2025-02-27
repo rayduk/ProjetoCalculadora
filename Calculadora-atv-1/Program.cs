@@ -14,6 +14,8 @@ internal class Program
         Console.WriteLine("\nEscolha uma operação:");
         Console.WriteLine("1 - Adição");
         Console.WriteLine("2 - Subtração");
+        Console.WriteLine("3 - Multiplicação");
+        Console.WriteLine("4 - Divisão");
         Console.Write("Opção: ");
         operacao = Convert.ToInt32(Console.ReadLine());
 
@@ -27,48 +29,25 @@ internal class Program
                 resultado = num1 - num2;
                 Console.WriteLine($"A subtração é: {resultado}");
                 break;
-            default:
-                Console.WriteLine($"Não se encontr a operação");
-                break;
-        }
-    private static void Main(string[] args)
-    {
-        Console.Write("digite primeiro numero ");
-        num1 = Convert.ToDouble(Console.ReadLine());
-        Console.Write("digite segundo numero ");
-        num2 = Convert.ToDouble(Console.ReadLine());
-
-        Console.WriteLine("\nEscolha uma operação:");
-        Console.WriteLine("1 - Multiplicação");
-        Console.WriteLine("2 - Divisão");
-        Console.Write("Opção: ");
-        operacao = Convert.ToInt32(Console.ReadLine());
-
-
-        switch (operacao)
-        {
-            case 1:
+            case 3:
                 resultado = num1 * num2;
                 Console.WriteLine($"A multiplicação é: {resultado}");
                 break;
-            case 2:
+            case 4:
                 resultado = num1 / num2;
                 Console.WriteLine($"A divisão é: {resultado}");
                 break;
             default:
-                Console.WriteLine($"Não se encontro a operação");
+                Console.WriteLine($"Não se encontr a operação");
                 break;
 
 
-
-
         }
-
-
     }
-
-
 }
+
+
+
 
 
 
