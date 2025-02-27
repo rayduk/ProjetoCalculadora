@@ -1,19 +1,24 @@
-﻿using System;
+﻿float numero1, numero2;
 
-internal class Program
+Console.WriteLine("Digite o primeiro número: ");
+numero1 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite o segudo número: ");
+numero2 = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite a operação desejada (+,-,*,/): ");
+string operacao = Console.ReadLine();
+
+if (operacao == "+")
 {
-    double numero1, numero2;
-    double soma = numero1 + numero2;
-    double subtracao = numero1 - numero2;
 
-    private static void Main(string[] args)
-    {
-        Console.WriteLine("Digite o primeiro número: ");
-        Console.ReadLine(numero1);
-        Console.WriteLine("Digite o segundo número: ");
-        Console.ReadLine(numero2);
-        Console.WriteLine("A soma dos números é: " + soma);
-        Console.WriteLine("A subtração dos números é: " + subtracao);
+    float soma = numero1 + numero2;
+    Console.WriteLine(soma);
+}
 
-    }
+if (operacao == "-")
+{
+
+    float subtracao = numero1 - numero2;
+    Console.WriteLine(subtracao);
 }
