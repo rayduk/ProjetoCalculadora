@@ -1,16 +1,16 @@
 ﻿    
 internal class Program
 {
-    double num1;
-    double num2;
-    double resultado = 0;
-    int operacao;
+    public static double num1;
+    public static double num2;
+    public static double resultado = 0;
+    public static int operacao;
 
     private static void Main(string[] args)
     {
-        Console.Write("digite primer numero");
+        Console.Write("digite primeiro numero ");
         num1 = Convert.ToDouble(Console.ReadLine());
-        Console.Write("digite segundo numero");
+        Console.Write("digite segundo numero ");
         num2 = Convert.ToDouble(Console.ReadLine());
 
         Console.WriteLine("\nEscolha uma operação:");
