@@ -1,4 +1,4 @@
-﻿    
+﻿
 internal class Program
 {
     public static double num1;
@@ -32,16 +32,21 @@ internal class Program
                 break;
             default:
                 Console.WriteLine($"Não se encontro a operação");
-                break;         
-                
+                break;
+
 
 
         }
 
     }
 
-        
+
 }
+
+
+
+
+
 
 
 
