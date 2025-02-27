@@ -13,22 +13,24 @@
         Console.Write("Digite o segundo número: ");
         num2 = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("\nEscolha uma operação:");
-        Console.WriteLine("3 - Adição");
-        Console.WriteLine("4 - Subtração");
+        Console.WriteLine("1 - Adição");
+        Console.WriteLine("2 - Subtração");
         Console.Write("Opção: ");
         operacao = Convert.ToInt32(Console.ReadLine());
 
         switch (operacao)
         {
-            case 3:
+            case 1:
                 resultado = num1 + num2;
                 Console.WriteLine($"A soma é: {resultado}");
                 break;
-            case 4:
+            case 2:
                 resultado = num1 - num2;
                 Console.WriteLine($"A subtração é: {resultado}");
                 break;
             default:
+                Console.WriteLine($"Não se encontr a operação");
+                break;
         }
     }
 }
