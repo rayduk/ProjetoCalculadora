@@ -27,29 +27,19 @@ internal class Program
                 Console.WriteLine($"A multiplicação é: {resultado}");
                 break;
             case 2:
-                resultado = num1 / num2;
-                Console.WriteLine($"A divisão é: {resultado}");
+                if (num2 == 0)
+                {
+                    Console.WriteLine("Erro: Não é possível dividir por zero.");
+                }
+                else
+                {
+                    resultado = num1 / num2;
+                    Console.WriteLine($"A divisão é: {resultado}");
+                }
                 break;
             default:
-                Console.WriteLine($"Não se encontro a operação");
+                Console.WriteLine("Opção inválida.");
                 break;
-
-
-
-
         }
-
     }
-
-
 }
-
-
-
-
-
-
-
-
-
-
